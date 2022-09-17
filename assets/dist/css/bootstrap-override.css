@@ -1,0 +1,130 @@
+.btn-primary {
+  color: #fff;
+  background-color: #321fdb;
+  border-color: #321fdb;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #5141e0;
+  border-color: #5141e0;
+}
+
+.btn-secondary {
+  color: rgb(44 56 74 / 95%);
+  background-color: #b1b7c1;
+  border-color: #b1b7c1;
+}
+.btn-secondary:hover {
+  color: rgb(44 56 74 / 95%);
+  background-color: #acb3bd;
+  border-color: #acb3bd;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #321fdb;
+  border-color: #321fdb;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #5141e0;
+  border-color: #5141e0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #321fdb;
+  border-color: #321fdb;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #5141e0;
+  border-color: #5141e0;
+}
+
+.bg-dark { 
+  background-color: #3c4b64 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+  color: rgba(255,255,255,0.87);
+  background-color: rgba(255,255,255,0.05);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255,0.87);
+  background-color: rgba(255,255,255,0.05);
+}
+
+.navbar-nav .nav-link {
+  padding: 15px 15px;
+}
+
+.bg-primary { 
+  background-color: #39f !important;
+}
+
+.btn-toggle::after{
+    display: block;
+    flex: 0 12px;
+    height: 12px;
+    content: "";
+    background-image: var(--cui-sidebar-nav-group-indicator,url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgba%28255, 255, 255, 0.6%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"));
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .15s;
+    width: 12px;
+    float: right;
+    margin-top: 10px;
+    transform: rotate(180deg);
+}
+
+.btn-toggle.collapsed::after { 
+  transform: rotate(360deg);
+}
+
+.progress-thin {
+  height: 4px;
+}
+
+.progress.progress-white {
+  background-color: rgba(255,255,255,.2);
+}
+
+.progress.progress-white .progress-bar {
+  background-color: #fff;
+}
+
+.bg-primary {
+  background-color: #321fdb!important;
+}
+
+.bg-warning {
+  background-color: #f9b115!important;
+}
+
+.bg-danger {
+  background-color: #e55353!important;
+}
+
+.bg-info {
+  background-color: #39f!important;
+}
+
+.table>:not(caption)>*>* {
+  padding: 0.5rem;
+  color: rgba(44, 56, 74, 0.95);
+  background-color: transparent;
+  border-bottom-color: #d8dbe0;
+  border-bottom-width: 1px;
+  box-shadow: inset 0 0 0 9999px transparents;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+ background-color:rgba(0, 0, 21, 0.05);
+  color: rgba(0, 0, 21, 0.05);
+}
+
+.table>:not(:first-child) {
+    border-top:none; 
+}
